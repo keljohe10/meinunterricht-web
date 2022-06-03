@@ -1,0 +1,12 @@
+# Ignore dependencies & builds
+
+node_modules/*
+.next/*
+
+# Ignore config files
+
+*.config.js
+
+# Ignore example cypress files
+
+cypress/integration/examples/*
