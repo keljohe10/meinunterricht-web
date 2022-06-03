@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-m7wkyr"
+  >
+    <div
+      class="css-lygqz2"
+    >
+      <div
+        class="css-79wky"
+      >
+        MeinUnterricht
+      </div>
+    </div>
+  </div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-1k59v4j"
+    >
+      <div
+        class="css-w8sp2g"
+      >
+        <div
+          align="center"
+          class="css-14g2rg7"
+        >
+          <div
+            class="css-52xlms"
+          >
+            <div
+              class="chakra-input__group css-8ejbcz"
+            >
+              <div
+                class="chakra-input__left-addon css-1pw3sjv"
+              >
+                <svg
+                  class="chakra-icon css-v6fbl0"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M23.384,21.619,16.855,15.09a9.284,9.284,0,1,0-1.768,1.768l6.529,6.529a1.266,1.266,0,0,0,1.768,0A1.251,1.251,0,0,0,23.384,21.619ZM2.75,9.5a6.75,6.75,0,1,1,6.75,6.75A6.758,6.758,0,0,1,2.75,9.5Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <input
+                class="chakra-input css-1cjrfq4"
+                data-testid="search-input"
+                placeholder="Search..."
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-1elhx01"
+    >
+      <div
+        class="css-hoe9xz"
+      >
+        <div
+          class="chakra-alert css-1adt752"
+          role="alert"
+        >
+          <span
+            class="chakra-alert__icon css-n0gcl4"
+          >
+            <svg
+              class="chakra-icon css-fi0ww0"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0Zm.25,5a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,12.25,5ZM14.5,18.5h-4a1,1,0,0,1,0-2h.75a.25.25,0,0,0,.25-.25v-4.5a.25.25,0,0,0-.25-.25H10.5a1,1,0,0,1,0-2h1a2,2,0,0,1,2,2v4.75a.25.25,0,0,0,.25.25h.75a1,1,0,1,1,0,2Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          Your search did not have any matches
+        </div>
+      </div>
+    </div>
+  </div>
+  <span
+    class="chakra-env"
+    hidden=""
+  />
+</DocumentFragment>
+`;

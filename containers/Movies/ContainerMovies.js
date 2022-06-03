@@ -19,13 +19,10 @@ const ContainerMovies = () => {
   const renderMovies = () => {
     if (movies.length > 0) {
       return (
-        <List mx={{ md: 16 }}>
-          <Flex
-            flexWrap='wrap'
-            justify={{ base: 'center', md: 'space-evenly' }}
-          >
+        <List mx={{ md: 16 }} data-testid='input-list'>
+          <Flex flexWrap='wrap' justify={{ base: 'space-evenly' }}>
             {movies.map(movie => (
-              <ListItem key={movie.imbdID} my={4}>
+              <ListItem key={movie.imbdID} my={4} data-testid='input-list-item'>
                 <MovieCard {...movie} />
               </ListItem>
             ))}

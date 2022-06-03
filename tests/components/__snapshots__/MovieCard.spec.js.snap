@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieCard component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1grfepy"
+  >
+    <div
+      class="css-13rp7ie"
+    >
+      <div
+        class="css-1yzea99"
+      >
+        <span
+          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+        >
+          <img
+            alt="movie"
+            data-nimg="fill"
+            data-testid="poster"
+            decoding="async"
+            h="6"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            w="6"
+          />
+          <noscript />
+        </span>
+      </div>
+      <div
+        class="chakra-stack css-n21gh5"
+      >
+        <h2
+          class="chakra-heading css-1f7s196"
+        >
+          Race to Space
+        </h2>
+        <p
+          class="chakra-text css-14qowsz"
+        >
+          Plot: In the 1960s a young woman works at NASA as an animal trainer responsible for the chimpanzee who will go into space.
+        </p>
+      </div>
+      <div
+        class="chakra-stack css-v0cdwd"
+      >
+        <div
+          class="chakra-stack css-1r2fu7y"
+        >
+          <p
+            class="chakra-text css-35ezg3"
+          >
+            Sean McNamara
+          </p>
+          <p
+            class="chakra-text css-ax9bdp"
+          >
+            2001
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

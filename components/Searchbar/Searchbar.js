@@ -62,9 +62,15 @@ const Searchbar = () => {
                 placeholder='Search...'
                 bg='white'
                 _focus={{ boxShadow: 'none' }}
+                data-testid='search-input'
               />
               {inputValue?.length && (
-                <InputRightAddon onClick={onClear} bg='white' cursor='pointer'>
+                <InputRightAddon
+                  data-testid='clear-icon'
+                  onClick={onClear}
+                  bg='white'
+                  cursor='pointer'
+                >
                   <CloseIcon color='gray.500' h={3} w={3} />
                 </InputRightAddon>
               )}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainLayout matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-m7wkyr"
+  >
+    <div
+      class="css-lygqz2"
+    >
+      <div
+        class="css-79wky"
+      >
+        MeinUnterricht
+      </div>
+    </div>
+  </div>
+  <div
+    class="css-0"
+  >
+    <nav>
+      mock
+    </nav>
+  </div>
+  <span
+    class="chakra-env"
+    hidden=""
+  />
+</DocumentFragment>
+`;

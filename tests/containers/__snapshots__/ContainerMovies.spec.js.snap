@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContainerMovies snapshot matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1twx5aj"
+  >
+    <div
+      class="css-dfbni9"
+    >
+      <div
+        align="center"
+        class="css-1nv7f4z"
+      >
+        <div
+          class="css-q17yhi"
+        >
+          <div
+            class="chakra-input__group css-v9uxfb"
+          >
+            <div
+              class="chakra-input__left-addon css-xr47y"
+            >
+              <svg
+                class="chakra-icon css-1yew91d"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M23.384,21.619,16.855,15.09a9.284,9.284,0,1,0-1.768,1.768l6.529,6.529a1.266,1.266,0,0,0,1.768,0A1.251,1.251,0,0,0,23.384,21.619ZM2.75,9.5a6.75,6.75,0,1,1,6.75,6.75A6.758,6.758,0,0,1,2.75,9.5Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <input
+              class="chakra-input css-116g694"
+              data-testid="search-input"
+              placeholder="Search..."
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ul
+    class="css-1o9npe6"
+    data-testid="input-list"
+    role="list"
+  >
+    <div
+      class="css-1w9mnle"
+    >
+      <li
+        class="css-pb69ky"
+        data-testid="input-list-item"
+      >
+        <div
+          class="css-1grfepy"
+        >
+          <div
+            class="css-13rp7ie"
+          >
+            <div
+              class="css-1yzea99"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  alt="movie"
+                  data-nimg="fill"
+                  data-testid="poster"
+                  decoding="async"
+                  h="6"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  w="6"
+                />
+                <noscript />
+              </span>
+            </div>
+            <div
+              class="chakra-stack css-n21gh5"
+            >
+              <h2
+                class="chakra-heading css-1f7s196"
+              >
+                Race to Space
+              </h2>
+              <p
+                class="chakra-text css-14qowsz"
+              >
+                Plot: In the 1960s a young woman works at NASA as an animal trainer responsible for the chimpanzee who will go into space.
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-v0cdwd"
+            >
+              <div
+                class="chakra-stack css-1r2fu7y"
+              >
+                <p
+                  class="chakra-text css-35ezg3"
+                >
+                  Sean McNamara
+                </p>
+                <p
+                  class="chakra-text css-ax9bdp"
+                >
+                  2001
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="css-pb69ky"
+        data-testid="input-list-item"
+      >
+        <div
+          class="css-1grfepy"
+        >
+          <div
+            class="css-13rp7ie"
+          >
+            <div
+              class="css-1yzea99"
+            >
+              <span
+                style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
+              >
+                <img
+                  alt="movie"
+                  data-nimg="fill"
+                  data-testid="poster"
+                  decoding="async"
+                  h="6"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  w="6"
+                />
+                <noscript />
+              </span>
+            </div>
+            <div
+              class="chakra-stack css-n21gh5"
+            >
+              <h2
+                class="chakra-heading css-1f7s196"
+              >
+                Gore from Outer Space
+              </h2>
+              <p
+                class="chakra-text css-14qowsz"
+              >
+                Plot: A woman is sent to execution for the murder of her daughter, who she believes is kidnapped. When she tells her story to a nun, we learn her story through a series of encounters with a psychic, a dirty politician, and two FBI agents who love Jell-O and believe there are aliens are responsible for bewildering the woman.
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-v0cdwd"
+            >
+              <div
+                class="chakra-stack css-1r2fu7y"
+              >
+                <p
+                  class="chakra-text css-35ezg3"
+                >
+                  Hirohisa Sasaki
+                </p>
+                <p
+                  class="chakra-text css-ax9bdp"
+                >
+                  2001
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </div>
+  </ul>
+</DocumentFragment>
+`;

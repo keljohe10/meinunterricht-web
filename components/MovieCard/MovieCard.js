@@ -15,17 +15,32 @@ import { FilmIcon } from 'chakra-ui-ionicons';
 const MovieCard = ({ poster, title, plot, director }) => {
   const renderPoster = image => {
     if (image !== 'N/A')
-      return <Image src={image} alt='movie' w={6} h={6} layout='fill' />;
+      return (
+        <Image
+          data-testid='poster'
+          src={image}
+          alt='movie'
+          w={6}
+          h={6}
+          layout='fill'
+        />
+      );
 
     return (
-      <Flex alignItems='center' w='full' h='full' justify='center'>
+      <Flex
+        data-testid='nofound-poster'
+        alignItems='center'
+        w='full'
+        h='full'
+        justify='center'
+      >
         <FilmIcon w={20} h={20} color='gray.500' />
       </Flex>
     );
   };
 
   return (
-    <Center py={16}>
+    <Center py={16} mx={2}>
       <Box
         w={{ base: '230px', md: '360px' }}
         h={{ md: '430px' }}

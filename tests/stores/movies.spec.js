@@ -31,7 +31,7 @@ describe('moviesSlice', () => {
       });
     });
 
-    test('sets the outlines when getMovies is fulfilled', () => {
+    test('sets the movies when getMovies is fulfilled', () => {
       const action = {
         type: getMovies.fulfilled.type,
         payload: movies,
