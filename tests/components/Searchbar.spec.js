@@ -40,7 +40,7 @@ describe('Searchbar component', () => {
   beforeEach(() => {
     wrapper = render(
       <Home>
-        <Searchbar />
+        <Searchbar typetext={() => true} />
       </Home>,
     );
   });

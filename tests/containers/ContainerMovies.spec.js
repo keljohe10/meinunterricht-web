@@ -65,10 +65,8 @@ describe('ContainerMovies', () => {
       });
     });
 
-    it('should render an info message', () => {
-      expect(
-        wrapper.getByText('Your search did not have any matches'),
-      ).toBeInTheDocument();
+    it('should return an empty array', () => {
+      expect(wrapper.queryAllByRole('listitem')).toHaveLength(0);
     });
   });
 });

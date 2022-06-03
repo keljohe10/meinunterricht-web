@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getMovies, getMoviesEntities } from '@/stores/movies';
 
@@ -11,14 +11,20 @@ const ContainerMovies = () => {
   const dispatch = useDispatch();
 
   const movies = useSelector(state => getMoviesEntities(state));
+  const [isSearching, setSearching] = useState(false);
 
   useEffect(() => {
     dispatch(getMovies());
   }, [dispatch]);
 
-  const renderMovies = () => {
-    if (movies.length > 0) {
-      return (
+  const typetext = typetext => {
+    setSearching(typetext);
+  };
+
+  return (
+    <>
+      <Searchbar typetext={typetext} />
+      {movies.length > 0 && (
         <List mx={{ md: 16 }} data-testid='input-list'>
           <Flex flexWrap='wrap' justify={{ base: 'space-evenly' }}>
             {movies.map(movie => (
@@ -28,25 +34,17 @@ const ContainerMovies = () => {
             ))}
           </Flex>
         </List>
-      );
-    }
-
-    return (
-      <Flex flexDirection='column' mt={20} mx={8}>
-        <Box alignSelf='center'>
-          <Alert status='info'>
-            <AlertIcon />
-            Your search did not have any matches
-          </Alert>
-        </Box>
-      </Flex>
-    );
-  };
-
-  return (
-    <>
-      <Searchbar />
-      {renderMovies()}
+      )}
+      {isSearching && !movies.length && (
+        <Flex flexDirection='column' mt={20} mx={8}>
+          <Box alignSelf='center'>
+            <Alert status='info'>
+              <AlertIcon />
+              Your search did not have any matches
+            </Alert>
+          </Box>
+        </Flex>
+      )}
     </>
   );
 };

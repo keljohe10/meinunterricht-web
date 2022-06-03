@@ -1,4 +1,5 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
+import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import debounce from 'lodash.debounce';
 import {
@@ -13,7 +14,7 @@ import { SearchIcon, CloseIcon } from '@chakra-ui/icons';
 
 import { getMovies } from '@/stores/movies';
 
-const Searchbar = () => {
+const Searchbar = ({ typetext }) => {
   const dispatch = useDispatch();
   const [inputValue, setInputValue] = useState('');
 
@@ -30,6 +31,7 @@ const Searchbar = () => {
     setInputValue(value);
     if (!value?.length || value.length >= 3) {
       debouncedFetch(value);
+      typetext(true);
     }
   };
 
@@ -80,6 +82,10 @@ const Searchbar = () => {
       </Box>
     </Flex>
   );
+};
+
+Searchbar.propTypes = {
+  typetext: PropTypes.func.isRequired,
 };
 
 export default Searchbar;
