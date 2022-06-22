@@ -1,5 +1,6 @@
 {
   "extends": ["next", "prettier"],
+  "plugins": ["unused-imports"],
   "rules": {
     "padding-line-between-statements": [
       "error",
