@@ -49,7 +49,7 @@ exports[`Searchbar component matches snapshot 1`] = `
                 </svg>
               </div>
               <input
-                class="chakra-input css-1cjrfq4"
+                class="chakra-input css-ppg4f0"
                 data-testid="search-input"
                 placeholder="Search..."
                 value=""

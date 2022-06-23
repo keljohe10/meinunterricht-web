@@ -11,6 +11,7 @@
         "prev": ["const", "let", "var"],
         "next": ["const", "let", "var"]
       }
-    ]
+    ],
+    "unused-imports/no-unused-imports": "error"
   }
 }
